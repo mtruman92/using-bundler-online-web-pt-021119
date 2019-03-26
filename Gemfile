@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem "rspec"
+gem "rspec", :group => :
 #gem "sinatra"
 gem 'sinatra', '1.4.4'
 gem 'hashie'
@@ -8,6 +8,5 @@ gem 'awesome_print', git:'git@github.com:awesome-print/awesome_print.git'
  
 group :development do
 gem "pry"
-gem "rspec"
 end
 
